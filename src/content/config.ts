@@ -22,7 +22,6 @@ const projects = defineCollection({
   }),
 });
 
-
 const work_samples = defineCollection({
   type: "content",
   schema: z.object({
@@ -34,6 +33,7 @@ const work_samples = defineCollection({
     repoURL: z.string().optional()
   }),
 });
+
 
 const about = defineCollection({
   schema: z.object({
