@@ -1,6 +1,6 @@
 ---
 title: "Pies Aren't Your Friend"
-description: "Why pies belong on your plate, not your reports."
+description: "🥧 Why pies belong on your plate, not your reports."
 date: "10/30/2023"
 draft: false
 ---

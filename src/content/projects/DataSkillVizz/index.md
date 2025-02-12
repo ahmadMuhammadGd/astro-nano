@@ -1,6 +1,6 @@
 ---
 title: "DataSkillViz"
-description: "Live App! Have a Closer Look at Data Job Market"
+description: "🚀 Live App! Have a Closer Look at Data Job Market"
 date: "jan 20 2025"
 liveURL: "https://dataskillviz.streamlit.app/"
 repoURL: "https://github.com/ahmadMuhammadGd/dataskillviz-streamlit"
@@ -56,7 +56,7 @@ For these reasons, I came up with this project to see what combination of tools 
 > Fortunatly, Some companies recognized the vast potential wasted by the old automatic resume-screening approach and sought to advance with tech-based solutions to measure how well a candidate fits their requirements before any human interaction, such as technical and IQ assessments.  
 
 ### How I Brought My Idea to Light
-Kimball data modeling (yes, it’s still relevant!), basic statistics, a simple Postgres database, and old-school fastText embeddings. Combine these with a clean pipeline, thorough testing, and some wisdom to bake these ingredients together to deliver a functional data product!
+Kimball data modeling (yes, it’s still relevant!), basic statistics, a simple Postgres database, and old-school fastText embeddings. Combine these with a clean pipeline,<!-- thorough testing,--> and some wisdom to bake these ingredients together to deliver a functional data product!
 
 
 Don't believe me? The project is open-sourced; check the <a href="https://github.com/ahmadMuhammadGd/skillVector-streamlit" target="_blank">code</a> yourself!
