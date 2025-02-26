@@ -3,15 +3,17 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import rehypeMermaid from 'rehype-mermaid';
-import addMermaidClass from './add-mermaid-classname';
 import pagefind from "astro-pagefind"
+import rehypeExternalLinks from "rehype-external-links";
+
 
 export default defineConfig({
   site: "https://ahmadmuhammadgd.github.io",
-  integrations: [mdx(), sitemap(), tailwind(), pagefind(),],
+  integrations: [mdx(), sitemap(), tailwind(), pagefind()],
   markdown: {
     rehypePlugins: [
-      ["rehype-mermaid", { launchOptions: { executablePath: null } }]
+      [rehypeMermaid, { launchOptions: { executablePath: null } }],
+      [rehypeExternalLinks, { target: '_blank', content: { type: 'text', value: ' 🔗' } , rel: ["nofollow"] }],
     ],
   },
 });
